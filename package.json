@@ -1,0 +1,26 @@
+{
+    "name": "elite-business-interviewer",
+    "version": "2.0.0",
+    "description": "顶级商业访谈记者 - 访谈、写作、配图、发布到微信公众号草稿箱",
+    "main": "converter.js",
+    "scripts": {
+        "test": "node -e \"const c = require('./converter'); console.log('Converter loaded successfully')\""
+    },
+    "keywords": [
+        "wechat",
+        "markdown",
+        "publish",
+        "converter",
+        "interview",
+        "business"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "cos-nodejs-sdk-v5": "^2.15.4",
+        "highlight.js": "^11.9.0",
+        "juice": "^10.0.0",
+        "marked": "^12.0.0",
+        "qiniu": "^7.12.0"
+    }
+}

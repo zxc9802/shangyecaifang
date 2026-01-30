@@ -1,0 +1,19 @@
+# 敏感配置文件
+qiniu-config.js
+
+# 临时文件目录
+temp/
+
+# Node.js
+node_modules/
+package-lock.json
+
+# 日志
+*.log
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 文章目录（可选，如果不想上传生成的文章）
+# articles/
